@@ -2,7 +2,12 @@ const vowels = "அஆஇஈஉஊஎஏஐஒஓஔ".split('');
 const extra = "ஃ"
 const basic = "கஙசஞடணதநபமயரலவழளறன".split('')
 const partialsStr= 'க்காகிகீகுகூகெகேகைகொகோகௌ';
-  
+/*
+  The above letters (partialsStr list) are represented by a pair of unicode. 
+  We are interested only in the second unicode. 
+  Just to make it look meaningful and readable, we are having the first unicode. 
+  Hence we are retaining only the unicode at the even places as shown below to get the partials
+*/
 const partials = partialsStr.split('').filter(function (char, index) {
   return index % 2 === 1;
 });
