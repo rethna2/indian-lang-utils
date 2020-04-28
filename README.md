@@ -1,5 +1,5 @@
 # indian-lang-utils
-A set of utilities to identify characters in various languages available in India.
+A set of javascript utilities function to identify characters in various languages available in India.
 
 # pschool.in
 We have a website with learning activities for kids ([www.pschool.in](https://pschool.in)) which is primarily meant for mobile devices. Due to lockdown we are getting lot of traffic and people are really liking it I guess. ;) Users are asking support for other languages like Hindi, Telugu, Kannada, Marathi, Malayalam etc.
@@ -22,4 +22,4 @@ This function will return all the characters (unicode) of the language. Please r
 
 ## convertStringToCharArray(str)
 
-This function will take a string as input and returns an array of characters. The challenge here is, some characters are represented by a combination of more than one unicode char.
+This function will take a string as input and returns an array of characters. The challenge here is, some characters are represented by a combination of more than one unicode char. Please refer how it is done in tamil.
