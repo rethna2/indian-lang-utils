@@ -2,7 +2,7 @@
 A set of utilities to identify characters in various languages available in India.
 
 # pschool.in
-We have a website with learning activities for kids. Due to lockdown we are getting lot of traffic and people are really liking it I guess. ;) Users are asking support for other languages like Hindi, Telugu, Kannada, Marathi, Malayalam etc.
+We have a website with learning activities for kids.([www.pschool.in](https://pschool.in)) Due to lockdown we are getting lot of traffic and people are really liking it I guess. ;) Users are asking support for other languages like Hindi, Telugu, Kannada, Marathi, Malayalam etc.
 
 We know only English and Tamil and unable to handle other languages. So we request help from the community.
 
@@ -16,7 +16,7 @@ We want to handle the below activites for all languages.
 We need two javascript functions for the indian languages. 
 
 ## getAllChars()
-This function will return all the unicode characters of the language. Please refer how it is done in Tamil. In Tamil, there are 12 vowels and 18 consonents. And we have another 12 x 18 characters which are derived by combining the vowels and consonents. So totally 
+This function will return all the unicode characters of the language. Please refer how it is done in Tamil. In Tamil, there are 12 vowels, 1 special character (ஃ)  and 18 consonents. And we have another 12 x 18 characters which are derived by combining the vowels and consonents. So totally there are 247 characters in tamil.
 
 ## convertStringToCharArray(str)
 
