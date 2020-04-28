@@ -23,7 +23,7 @@ export const getAllChars = () => {
   ]
 }
 
-export const getTamilWordArr = str => {
+export const getLetterArrFromString = str => {
   str = str.split("").map(char => char.trim()).join('');
   var len = 0;
   var wordArr = [];
